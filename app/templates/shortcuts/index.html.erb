@@ -1,0 +1,7 @@
+<h1>Shortcuts</h1>
+
+<ul>
+  <% shortcuts.each do |shortcut| %>
+    <li><%= shortcut[:title] %>, to <%= shortcut[:url] %></li>
+  <% end %>
+</ul>
