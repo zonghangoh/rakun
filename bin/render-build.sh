@@ -5,3 +5,4 @@ set -o errexit
 bundle config set --local without 'development,test,analyze,tools'
 bundle install
 bundle exec rake db:migrate
+bundle exec hanami assets compile
